@@ -1,0 +1,31 @@
+body{
+    background: #004787;
+}
+
+#container{
+    color: white;
+    text-align: center;
+}
+
+table,th,td,tr{
+    text-align: center;
+    font-style: normal;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+table{
+    width: 800px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border: 3px solid black;
+
+}
+
+.rien{
+    border: 0px solid white;
+}

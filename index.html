@@ -1,0 +1,38 @@
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css" media="screen" type="text/css" />
+        <title>Fraction</title>
+        </head>
+        <body>
+            <div id="container">
+                <form action="Calcul.php" method="POST">
+                    <h1>Fraction 1</h1>
+                    
+                    <label><b>Numerateur:</b></label>
+                    <input type="text" placeholder="Entrer le numérateur" name="num1" size="5" minlength="1" maxlength="5" required>
+    
+                    <label><b>Denominateur:</b></label>
+                    <input type="text" placeholder="Entrer le dénominateur" name="denom1" size="5" minlength="1" maxlength="5" required>
+                    <hr/>
+                    <label for="somme1">Addition</label>
+                    <input type="radio" id="somme1" name="addmult" value="add">
+    
+                    <label for="somme2">Multiplication</label>
+                    <input type="radio" id="somme2" name="addmult" value="mult">
+                    <hr/>
+                    <h1>Fraction 2</h1>
+                    
+                    <label><b>Numerateur:</b></label>
+                    <input type="text" placeholder="Entrer le numérateur" name="num2" size="5" minlength="1" maxlength="5" required>
+    
+                    <label><b>Denominateur:</b></label>
+                    <input type="text" placeholder="Entrer le dénominateur" name="denom2" size="5" minlength="1" maxlength="5" required>
+
+                    <input type="submit" id='submit' value='Envoyer' >
+                </form>
+            </div>
+        </body>
+    </html>
